@@ -1,0 +1,29 @@
+{
+  "name": "smallbootstrapboilerplate",
+  "version": "1.0.0",
+  "description": "small boilerplate for project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hernan12345/smallBootstrapBoilerplate.git"
+  },
+  "author": "Hernán Nadotti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hernan12345/smallBootstrapBoilerplate/issues"
+  },
+  "homepage": "https://github.com/Hernan12345/smallBootstrapBoilerplate#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.0.0",
+    "gulp-less": "^3.0.5",
+    "http-server": "^0.9.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
