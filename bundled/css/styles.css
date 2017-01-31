@@ -1,0 +1,22 @@
+body {
+    font-family: 'Didact Gothic', sans-serif;
+}
+.container.content {
+    margin-top: 60px;
+}
+.thumbnail {
+    width: 100%;
+}
+
+/* Override Bootstraps Styles */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-default li {
+    margin-right: 15px;
+}
+
+.navbar-default {
+    background-color: #fff;
+}

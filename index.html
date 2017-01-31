@@ -1,20 +1,137 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Title of the document</title>
+<title>Catálogo de sillas</title>
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
 <!-- inject:css -->
 <link rel="stylesheet" href="/bundled/css/bootstrap.css">
+<link rel="stylesheet" href="/bundled/css/styles.css">
 <!-- endinject -->
 </head>
 
 <body>
-	<div class="container">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand visible-xs" href="#">Dodolan Manuk</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+        	<ul class="nav navbar-nav nav-left simplefilter">
+			  <li class="active" data-filter="1">Todas</li>
+			  <li data-filter="2">Livings</li>
+			  <li data-filter="3">Comedores</li>
+			  <li data-filter="4">Outdoors</li>
+			</ul>
+			<a href="#" class="logo visible-lg visible-md"><img src="" alt=""></a>
+			<div id="brand" class="visible-lg visible-md">&nbsp;</div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+  </nav>
+	<div class="container content">
 		<div class="row">
-			<div class="col-xs-12">
-				<p>P</p>
+			<div class="row">
+				<div class="col-md-3 col-sm-4 col-xs-12 filtr-item">
+					<div class="thumbnail">
+					  <img class="img-responsive" src="/bundled/images/white-chairs.jpg">
+					  <div class="caption-details">
+						<h3>White Chair</h3>
+						<span class="price">$200</span>
+					  </div>
+					  <a href="detail.html"><div class="caption-link"><i class="fa fa-plus"></i></div></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-12 filtr-item">
+					<div class="thumbnail">
+					  <img class="img-responsive" src="/bundled/images/black-and-white-chairs.jpg">
+					  <div class="caption-details">
+						<h3>White and black chair</h3>
+						<span class="price">$200</span>
+					  </div>
+					  <a href="detail.html"><div class="caption-link"><i class="fa fa-plus"></i></div></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-12 filtr-item">
+					<div class="thumbnail">
+					  <img class="img-responsive" src="/bundled/images/white-chairs.jpg">
+					  <div class="caption-details">
+						<h3>Border Canary</h3>
+						<span class="price">$200</span>
+					  </div>
+					  <a href="detail.html"><div class="caption-link"><i class="fa fa-plus"></i></div></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-12 filtr-item">
+					<div class="thumbnail">
+					  <img class="img-responsive" src="/bundled/images/white-chairs.jpg">
+					  <div class="caption-details">
+						<h3>Border Canary</h3>
+						<span class="price">$200</span>
+					  </div>
+					  <a href="detail.html"><div class="caption-link"><i class="fa fa-plus"></i></div></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-12 filtr-item">
+					<div class="thumbnail">
+					  <img class="img-responsive" src="/bundled/images/white-chairs.jpg">
+					  <div class="caption-details">
+						<h3>Border Canary</h3>
+						<span class="price">$200</span>
+					  </div>
+					  <a href="detail.html"><div class="caption-link"><i class="fa fa-plus"></i></div></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-12 filtr-item">
+					<div class="thumbnail">
+					  <img class="img-responsive" src="/bundled/images/white-chairs.jpg">
+					  <div class="caption-details">
+						<h3>Border Canary</h3>
+						<span class="price">$200</span>
+					  </div>
+					  <a href="detail.html"><div class="caption-link"><i class="fa fa-plus"></i></div></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-12 filtr-item">
+					<div class="thumbnail">
+					  <img class="img-responsive" src="/bundled/images/white-chairs.jpg">
+					  <div class="caption-details">
+						<h3>Border Canary</h3>
+						<span class="price">$200</span>
+					  </div>
+					  <a href="detail.html"><div class="caption-link"><i class="fa fa-plus"></i></div></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-12 filtr-item" data-category="1, 5">
+					<div class="thumbnail">
+					  <img class="img-responsive" src="/bundled/images/white-chairs.jpg">
+					  <div class="caption-details">
+						<h3>Border Canary</h3>
+						<span class="price">$200</span>
+					  </div>
+					  <a href="detail.html"><div class="caption-link"><i class="fa fa-plus"></i></div></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- inject:js -->
+		<script src="/bundled/js/bootstrap.min.js"></script>
+		<script src="/bundled/filterizr/jquery.filterizr.js"></script>
+		<script src="/bundled/js/controls.js"></script>
+		<!-- endinject -->
+	
 </body>
 
 </html>
