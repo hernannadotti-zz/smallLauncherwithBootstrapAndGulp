@@ -13,8 +13,20 @@ body {
     border-color: transparent;
 }
 
+.navbar-default .container {
+    margin-top: 12px;
+}
+
 .navbar-default li {
-    margin-right: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.navbar-default li.active {
+    background-color: #000;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 8px;
 }
 
 .navbar-default {
