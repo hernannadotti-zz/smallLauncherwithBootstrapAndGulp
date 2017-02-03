@@ -8,9 +8,17 @@ body {
     width: 100%;
 }
 
+.caption-details {
+    padding: 2%;
+}
+
 /* Override Bootstraps Styles */
+.navbar-default {
+    background-color: #000;
+}
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: transparent;
+    background-color: transparent;
 }
 
 .navbar-default .container {
@@ -20,15 +28,12 @@ body {
 .navbar-default li {
     margin-right: 20px;
     cursor: pointer;
+    color:white;
 }
 
 .navbar-default li.active {
-    background-color: #000;
-    color: white;
+    background-color: white;
+    color: #000;
     border-radius: 3px;
     padding: 2px 8px;
-}
-
-.navbar-default {
-    background-color: #fff;
 }
