@@ -1,4 +1,4 @@
-# small boilerplate for smart projects using gulp and Bootstrap 3.
+# small launcher for smart Front-End projects using gulp and Bootstrap 3.
 
 # How?
 
