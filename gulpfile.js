@@ -1,8 +1,8 @@
 var gulp = require("gulp"),
-	browserSync = require('browser-sync').create(),
-	less = require('gulp-less'),
-	path = require('path'),
-	inject = require('gulp-inject');
+    browserSync = require('browser-sync').create(),
+    less = require('gulp-less'),
+    path = require('path'),
+    inject = require('gulp-inject');
 
 
 gulp.task('browser-sync',['less-compile', 'inject'], function() {
@@ -15,7 +15,7 @@ gulp.task('browser-sync',['less-compile', 'inject'], function() {
 });
 
 gulp.task('less-compile', function(){
-	return gulp.src('./src/less/bootstrap.less')
+    return gulp.src('./src/less/bootstrap.less')
     .pipe(less({
       paths: [ path.join(__dirname, 'less') ]
     }))
@@ -23,10 +23,10 @@ gulp.task('less-compile', function(){
 });
 
 gulp.task('inject', function(){
-	var target = gulp.src('./index.html');
-  	// It's not necessary to read the files (will speed up things), we're only after their paths: 
-  	var sources = gulp.src(['./bundled/js/bootstrap.min.js', './bundled/filterizr/jquery.filterizr.js', './bundled/js/controls.js', './bundled/css/*.css'], {read: false});
- 
+    var target = gulp.src('./index.html');
+      // It's not necessary to read the files (will speed up things), we're only after their paths:
+      var sources = gulp.src(['./bundled/js/bootstrap.min.js', './bundled/js/controls.js', './bundled/css/*.css'], {read: false});
+
   return target.pipe(inject(sources))
     .pipe(gulp.dest('./'));
 });
